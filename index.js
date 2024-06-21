@@ -3,7 +3,6 @@ const somaHorasExtras = (salario, valorHorasExtras) => salario + valorHorasExtra
 const calculaDescontos = (salario, descontos) => salario - descontos;
 
 export {
-    somaHorasExtras,
-    calculaDescontos
+  somaHorasExtras,
+  calculaDescontos,
 };
-
