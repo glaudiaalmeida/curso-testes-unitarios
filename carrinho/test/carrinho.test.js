@@ -1,7 +1,7 @@
 import Carrinho from "../carrinho.js";
 import Item from "../item.js";
 
-DESCRIBE('Testes do carrinho', () => {
+describe('Testes do carrinho', () => {
     it('Deve inicializar vazio', () =>{
         const carrinho = new Carrinho();
         expect(carrinho.subtotal).toBeNull();
@@ -12,7 +12,7 @@ DESCRIBE('Testes do carrinho', () => {
             const item = new Item('Banana', 2, 5);
             const item2 = new Item('maca', 0.5, 1);
 
-            const carrinho  new Carrinho();
+            const carrinho =  new Carrinho();
             carrinho.adiciona(item);
             carrinho.adiciona(item2);
 
